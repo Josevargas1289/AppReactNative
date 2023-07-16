@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableNativeFeedback } from 'react-native'
-import { SimpleLineIcons } from '@expo/vector-icons'; 
+import { Text, View, TouchableNativeFeedback, Alert } from 'react-native'
+import { SimpleLineIcons } from '@expo/vector-icons';
+ 
 
 
 const AppBarComponent =() => {
