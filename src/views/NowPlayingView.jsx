@@ -5,7 +5,7 @@ import { AntDesign, Ionicons  } from '@expo/vector-icons';
 
 const NowPlaying = () => {
   return (
-    <View className="flex-row mt-3 p-3 justify-between items-center">
+    <View className="flex-row  p-3 pt-6 justify-between items-center">
       <TouchableNativeFeedback>
       <AntDesign name="arrowleft" size={20} color="white" />
       </TouchableNativeFeedback>

@@ -1,10 +1,12 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import React from "react";
+import {  Text, View } from "react-native";
 import Constants from 'expo-constants';
 import 'react-native-gesture-handler';
 
+
 import HomeView from "./src/views/HomeView";
 import Profile from "./src/views/ProfileView";
+import Navigation from "./navigation";
 
 export default function App() {
   return (
@@ -13,8 +15,9 @@ export default function App() {
       flexGrow: 1,
       backgroundColor: "#232A3E"
   }}>
-     <HomeView/>
+     {/* <HomeView/> */}
      {/* <Profile/> */}
+     <Navigation/>
   </View>
   )
 }
